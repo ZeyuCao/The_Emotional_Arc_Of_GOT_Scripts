@@ -10,7 +10,7 @@ For years, I have been a big fan of the HBO series, [Game of Thrones](https://en
 
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/2.jpg)
 
-So it wouldn't be hard to imagine the joy and the expectation I had in 2020I am also a self media, so that I wrote several articles on the show and gained over 3 million views. 
+So it wouldn't be hard to imagine the joy and the expectation I had in 2019 when the last season of the show was premiered. I have my self media self media, so that I wrote several articles on the show and gained over 3 million views. 
 what has always been a pity for me is its disappointing last season which has received a great amount of complaints. Frankly speaking, I would rather haven’t watched the Game of Thrones season 8 so that it would have remained my favorite show ever till now!
 Then a question bumped into my head: how can we avoid disappointing shows such as the last season of Game of Thrones and locate our favored ones? 
 
