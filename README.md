@@ -1,5 +1,8 @@
-# How to avoid disappointing shows as GOT Season 8?--A Emotional Arc Approach Using Sentiment Analysis of the Scripts 
- How to tell whether a TV show would provide you with a good experience without watching it
+# How to avoid disappointing shows as GOT Season 8 and find your favored ones?--A Emotional Arc Approach Using Sentiment Analysis of the Scripts 
+Imagine this scene in your mind: It was the afternoon of Sunday, you were not occupied with any emergency, so you decided to spend the precious leisure time watching a film. But two hours later, you were frustrated to admit it to be a completely waste of time watching it.
+
+
+How to tell whether a TV show would provide you with a good experience without watching it
 
 ## A really disappointing watching experience:
 
