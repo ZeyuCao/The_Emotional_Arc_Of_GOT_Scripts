@@ -10,8 +10,21 @@ For years, I have been a big fan of the HBO series, [Game of Thrones](https://en
 
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/2.jpg)
 
-So it wouldn't be hard to imagine the joy and the expectation I had in 2019 when the last season of the show was premiered. I have my self media self media, so that I writen several articles on the show and gained over 1.3 million views. 
+So it wouldn't be hard to imagine the joy and the expectation I had in 2019 when the last season of the show was premiered. I have my self media self media, so that I writen several reviewing articles on the show and gained over 1.3 million views. 
 
+![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/creator_center.png)
+
+![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/creator_center_S8E3.png)
+
+Some of the articles(Writen in Chinese) are listed below:
+
+[S8E1](https://www.zhihu.com/question/320028013/answer/651748036)
+
+[S8E2](https://www.zhihu.com/question/320747168/answer/659337126)
+
+[S8E3](https://www.zhihu.com/question/321888337/answer/666848619)
+
+[S8E6](https://www.zhihu.com/question/325173949/answer/688985513)
 
 
 what has always been a pity for me is its disappointing last season which has received a great amount of complaints. Frankly speaking, I would rather haven’t watched the Game of Thrones season 8 so that it would have remained my favorite show ever till now!
