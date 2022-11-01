@@ -1,4 +1,4 @@
-# How to avoid disappointing shows as GOT Season 8?--A Sentiment Analysis of the Script Approach
+# How to avoid disappointing shows as GOT Season 8?--A Emotional Arc Approach Using Sentiment Analysis of the Scripts 
  How to tell whether a TV show would provide you with a good experience without watching it
 
 ## A really disappointing watching experience:
@@ -28,13 +28,21 @@ Some of the articles(Writen in Chinese) are listed below:
 
 However, the joy did not last long. it then turned out that the last season was the worst among all the seasons and received a great amount of complaints. Frankly speaking, I would rather haven’t watched the Game of Thrones season 8 so that it would have remained my favorite show ever till now!
 
-I am not the only disappointed fan. In the 
+I am not the only disappointed fan. A [petition](https://www.change.org/p/hbo-remake-game-of-thrones-season-8-with-competent-writers) was started in the [Change.org](https://www.change.org/p/hbo-remake-game-of-thrones-season-8-with-competent-writers) Wesite, hoping to "Remake Game of Thrones Season 8 with competent writers." Up till now, more than 1.8 million people have signed on the Internet.
 
+## How to avoid disappointing shows?
 
 Then a question bumped into my head: how can we avoid disappointing shows such as the last season of Game of Thrones and locate our favored ones? 
 
-By reviewing the points and the recommendations on websites such as imdb? It helps but most of the time the results are based on machine learning of our labels and features on that website. The result is not satisfying.  We try to search for a 
-Through comments? I don’t want to take the risk of spoilers. 
+By reviewing the points and the recommendations on websites such as imdb? 
+
+--It helps but most of the time the results are based on machine learning of our labels and features on that website. The result is not satisfying.  
+
+Through comments? 
+
+I don’t want to take the risk of spoilers. 
+
+
 
 What if there is a way to get to know whether the show is suitable 
 
