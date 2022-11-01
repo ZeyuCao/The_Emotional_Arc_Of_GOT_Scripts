@@ -39,7 +39,7 @@ Then a question bumped into my head: how can we avoid disappointing shows such a
 
 By reviewing the points and the recommendations on websites such as imdb? 
 
---It helps but most of the time the results are based on machine learning of our labels and features on that website. The result is not satisfying.  
+--It helps but most of the time the results are based on machine learning of our labels and features on that website. The result is not satisfying. Some times it is acurate but most of time the ratings are somhow overated or under-estimated or "just not your type".  
 
 Through comments? 
 
