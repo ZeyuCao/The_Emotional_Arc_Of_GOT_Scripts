@@ -1,4 +1,4 @@
-# Sentiment_Analysis_on_GOT
+# How to avoid disappointing shows as GOT Season 8?--A Sentiment Analysis of the Script Approach
  How to tell whether a TV show would provide you with a good experience without watching it
 
 ## A really disappointing watching experience:
@@ -10,7 +10,7 @@ For years, I have been a big fan of the HBO series, [Game of Thrones](https://en
 
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/2.jpg)
 
-So it wouldn't be hard to imagine the joy and the expectation I had in 2019 when the last season of the show was premiered. I have my own media self media, so that I wrote several reviewing articles on the show and gained over 1.3 million views. 
+So it wouldn't be hard to imagine the joy and the expectation I had in 2019 when the last season of the show was premiered. I have my own self media with near 55k followers in [Zhihu](https://www.zhihu.com/people/cao-tu-dou-94), so that I wrote several reviewing articles on the show and gained over 1.3 million views. 
 
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/creator_center.png)
 
