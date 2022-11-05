@@ -33,19 +33,19 @@ I am not the only disappointed fan. A [petition](https://www.change.org/p/hbo-re
 
 Then a question bumped into my head: how can we avoid disappointing shows such as the last season of Game of Thrones and locate our favored ones? 
 
-## How to avoid disappointing shows?
+## We have ways to avoid disappointing shows, but...
 
 Normally, we use the ways below to "filter" our favored shows, but none of which is satisfying.
 
-By watching the trailers
+***By watching the trailers***
 
 --The trailer is re-edited, so it can be considered a competely different story from the oringal one. (BTW, even the last episode of the last season of GOT seems not bad)
 
-By reviewing the points and the recommendations on websites such as imdb
+***By reviewing the points and the recommendations on websites such as imdb***
 
 --It helps， but most of the time the results are based on machine learning of labels and features on our viewing history on the website. As a result, the recommendations are highly genre-orientated, which is obviously not satisfying because a good story is narrative based rather than genre based. To make matters worse, the ratings are often somhow overated or under-estimated or "just not my type".  
 
-Through comments
+***Through comments***
 
 --I don’t want to take the risk of seeing spoilers. 
 
