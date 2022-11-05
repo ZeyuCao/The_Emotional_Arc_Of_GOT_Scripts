@@ -35,7 +35,7 @@ Then a question bumped into my head: how can we avoid disappointing shows such a
 
 ## We have ways to avoid disappointing shows, but...
 
-Normally, we use the ways below to "filter" our favored shows, but none of which is satisfying.
+Normally, we use the ways below to "filter" our favored shows:
 
 ***By watching the trailers***
 
@@ -43,19 +43,25 @@ Normally, we use the ways below to "filter" our favored shows, but none of which
 
 ***By reviewing the points and the recommendations on websites such as imdb***
 
---It helps， but most of the time the results are based on machine learning of labels and features on our viewing history on the website. As a result, the recommendations are highly genre-orientated, which is obviously not satisfying because a good story is narrative based rather than genre based. To make matters worse, the ratings are often somhow overated or under-estimated or "just not my type".  
+--It helps， but most of the time the results are based on machine learning of labels and features on our viewing history on the website. As a result, the recommendations are highly genre-orientated, which is obviously not satisfying because a good story is narrative based rather than genre based. To make matters worse, the ratings are often somehow overated or under-estimated or "just not my type".  
 
 ***Through comments***
 
 --I don’t want to take the risk of seeing spoilers. 
 
-
+Unfortunately, we are faced with the fact that few of the current ways is satisfying. So new approach is supposed to be involved.
 
 ## A Narrative Approach: the Emotional Arc
 
-Is there a way to get to tell whether the show or the movie is "interesting" or "breath-taking" or just "dull", before you even watch it? 
+Is there a new way to tell whether the show or the movie is "interesting" or "breath-taking" or just "dull", before you even watch it? 
 
-But as the saying goes: ‘You can’t have your cake and eat it too.’ I find it a black box for the audience: you will only know whether the show is good or not after the show. In order to do some pre-judgment of the show and avoid being spoiler alerted, I am motivated to do this project.
+It seems impossible at the first glance, as the saying goes: ‘You can’t have your cake and eat it too.’ 
+
+But the digital technology has enabled us to use computational tools to analyze and generate the information we want from the screenplay script.
+
+Think out about the question from very begining: What is the real thing that contributes to the processing of the story?
+
+Engjoying a story, regardless of the format such as reading a book or watching a TV show, is like
 
 ## Reference
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
