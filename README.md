@@ -1,5 +1,6 @@
 # How to avoid disappointing shows as GOT Season 8 and find your favored ones?--A Emotional Arc Approach Using Sentiment Analysis of the Scripts 
-We all have had this experience when we are watching a new movie or show with high expectations, only to find our expectations subverted.  
+
+We all have had such experience as we are watching new movies or shows with high expectations, only to find our expectations subverted after the hours which seem like ages. But by then, those hours in our life had already gone, leaving us with only the disapointment and regrets. 
 
 ## A really disappointing watching experience:
 
@@ -34,17 +35,17 @@ Then a question bumped into my head: how can we avoid disappointing shows such a
 
 ## How to avoid disappointing shows?
 
+Normally, we use the ways below to "filter" our favored shows, but none of which is satisfying.
 
-
-By watching the trailers?
+By watching the trailers
 
 --The trailer is re-edited, so it can be considered a competely different story from the oringal one. (BTW, even the last episode of the last season of GOT seems not bad)
 
-By reviewing the points and the recommendations on websites such as imdb? 
+By reviewing the points and the recommendations on websites such as imdb
 
 --It helps， but most of the time the results are based on machine learning of labels and features on our viewing history on the website. As a result, the recommendations are highly genre-orientated, which is obviously not satisfying because a good story is narrative based rather than genre based. To make matters worse, the ratings are often somhow overated or under-estimated or "just not my type".  
 
-Through comments? 
+Through comments
 
 --I don’t want to take the risk of seeing spoilers. 
 
