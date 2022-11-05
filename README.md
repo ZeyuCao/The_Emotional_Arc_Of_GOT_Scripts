@@ -59,11 +59,14 @@ It seems impossible at the first glance, as the saying goes: ‘You can’t have
 
 But the digital technology has enabled us to use computational tools to analyze and generate the information we want from the screenplay script.
 
-Think out about the question from very begining: What is the real thing that contributes to the processing of the story?
+Think out about the question from very begining: What is the most significant thing that contributes to the processing of the story?
+Engjoying a story, regardless of the format such as reading a book or watching a TV show, is getting various emotional experiences throughout the process, which is so called "The reader-pcerceived emotional content".
 
-Engjoying a story, regardless of the format such as reading a book or watching a TV show, is like
+The emotional arc of the given story plays a very important role in the popularity of that story.(  
 
 ## Reference
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
 
 Script of Game of Thrones: ["Genius Lyrics"](https://genius.com/artists/Game-of-thrones)
+
+Reagan, A.J., Mitchell, L., Kiley, D. et al. The emotional arcs of stories are dominated by six basic shapes. EPJ Data Sci. 5, 31 (2016). https://doi.org/10.1140/epjds/s13688-016-0093-1
