@@ -31,6 +31,8 @@ However, the joy did not last long. it then turned out that the last season was 
 
 I am not the only disappointed fan. A [petition](https://www.change.org/p/hbo-remake-game-of-thrones-season-8-with-competent-writers) was started in the [Change.org](https://www.change.org/p/hbo-remake-game-of-thrones-season-8-with-competent-writers) Wesite, hoping to "Remake Game of Thrones Season 8 with competent writers." Up till now, more than 1.8 million people have signed on the Internet.
 
+![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/petition.png)
+
 Then a question bumped into my head: how can we avoid disappointing shows such as the last season of Game of Thrones and locate our favored ones? 
 
 ## We have ways to avoid disappointing shows, but...
