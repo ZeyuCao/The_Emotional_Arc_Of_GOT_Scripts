@@ -4,7 +4,7 @@ We all have had such experience as we are watching new movies or shows with high
 
 ## A really disappointing watching experience:
 
-For years, I have been a big fan of the HBO series, [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones). Once upon a time, I have even traveled to Ireland to ‘worship’ the show’s shooting scene.
+For years, I have been a big fan of the HBO series, [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones). Once upon a time, I have even travelled to Ireland to ‘worship’ the show’s shooting scene.
 
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/1.png)
 
@@ -17,7 +17,7 @@ So it wouldn't be hard to imagine the joy and the expectation I had in 2019 when
 
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/creator_center_S8E3.png)
 
-Some of the articles(Writen in Chinese) are listed below:
+Some of the articles(Written in Chinese) are listed below:
 
 [S8E1](https://www.zhihu.com/question/320028013/answer/651748036)
 
