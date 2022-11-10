@@ -33,7 +33,7 @@ I am not the only disappointed fan. A [petition](https://www.change.org/p/hbo-re
 
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/Petition.png)
 
-Then a question bumped into my head: how can we avoid disappointing shows such as the last season of Game of Thrones and locate our favored ones? 
+Then a question bumped into my head: how can we avoid disappointing shows such as the last season of Game of Thrones and locate our favoured ones? 
 
 ## We have ways to avoid disappointing shows, but...
 
@@ -41,7 +41,7 @@ Normally, we use the ways below to "filter" our favored shows:
 
 ***By watching the trailers***
 
---The trailer is re-edited, so it can be considered a competely different story from the oringal one. (BTW, even the last episode of the last season of GOT seems not bad)
+--The trailer is re-edited, so it can be considered a completely different story from the original one. (BTW, even the last episode of the last season of GOT seems not bad)
 
 ***By reviewing the points and the recommendations on websites such as imdb***
 
