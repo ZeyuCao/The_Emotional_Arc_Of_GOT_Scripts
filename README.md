@@ -70,7 +70,7 @@ Remove the inequivalent content, blanks and symbols. Then save the clean files f
 Word cloud enables the audience to get to know the main characters and the most frequent words of the episode. After importing the packages and setting the directory, I generated the first word cloud and removed the stop words that had been customized by myself. For some cases, the duplicate words shall be merged. 
 
 ### Mask
-To make the word cloud more visually pleasant, I reshaped it with the selected picture. I chose the icon of house Stark as the mask. I then customized the colour by specifying the colour map, making the style of the word cloud resemble the house icons. Finally, I managed getting the output of the wordcloud. (See in the file "wordcloud of the first episodes for all seasons" and "wordcloud_S1". 
+To make the word cloud more visually pleasant, I reshaped it with the selected picture. I chose the icon of house Stark as the mask. I then customized the colour by specifying the colour map, making the style of the word cloud resemble the house icons. Finally, I managed getting the output of the wordcloud. (See in the file ["wordcloud of the first episodes for all season"](https://github.com/ZeyuCao/The_Emotional_Arc_Of_GOT_Scripts/tree/main/wordcloud%20of%20the%20first%20episodes%20for%20all%20season) and ["wordcloud_S1"](https://github.com/ZeyuCao/The_Emotional_Arc_Of_GOT_Scripts/tree/main/wordcloud_S1). 
 
 ## Reference
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
