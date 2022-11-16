@@ -126,8 +126,13 @@ Reagan, A.J., Mitchell, L., Kiley, D. et al. The emotional arcs of stories are d
 ## TAKE AWAYS AND FUTURE IMPROVEMENTS
 
 Expand my expertise in the programming language(R, Python)
+
 Understand the Sentiment Analysis(NLP) better
+
 Improve my mindset of design thinking
+
 Be more professional in video production soft wares(AE, PR Pro)
+
 Practice lighting setup in the studio and shooting with Sony camera
+
 The project can be developed into an interactive app to see the emotional arc of given shows in the future
