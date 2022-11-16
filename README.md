@@ -2,7 +2,7 @@
 
 We all have had such experience as we are watching new movies or shows with high expectations, only to find our expectations subverted after the hours which seem like ages. But by then, those hours in our life had already gone, leaving us with only the disapointment and regrets. 
 
-## A really disappointing watching experience:
+## A REALLY DISAPPOINTING WATCHING EXPERIENCE(EMPHAZING AND DEFINING)
 
 For years, I have been a big fan of the HBO series, [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones). Once upon a time, I have even travelled to Ireland to ‘worship’ the show’s shooting scene.
 
@@ -21,7 +21,7 @@ I am not the only disappointed fan. A [petition](https://www.change.org/p/hbo-re
 
 Then a question bumped into my head: how can we avoid disappointing shows such as the last season of Game of Thrones and locate our favoured ones? 
 
-## We have ways to avoid disappointing shows, but...
+## WE HAVE WAYS TO AVOID DISAPPOINTING SHOWS, BUT...(THE GAP)
 
 Normally, we use the ways below to "filter" our favored shows:
 
@@ -39,7 +39,7 @@ Normally, we use the ways below to "filter" our favored shows:
 
 Unfortunately, we are faced with the fact that few of the current ways is satisfying. So new approach is supposed to be involved.
 
-## A Narrative Approach: the Emotional Arc
+## A NARRATIVE APPROACH: THE EMOTIONAL ARC(IDEATATION AND METHODOLOGY)
 
 Is there a new way to tell whether the show or the movie is "interesting" or "breath-taking" or just "dull", before you even watch it? 
 
@@ -59,8 +59,8 @@ This approach has inspired me in terms of the methodology. The process of enjoyi
 
 So by analysing the changing of each primary emotion of the story, also known as the emotional arc, we can tell what the story would be like before actually watching it. This can be achieved by digital tools and programming languages.
 
-## BEGIN TO 'SWIM' IN THE DIGITAL TOOLS!
-### (PROTOTYPING)
+## BEGIN TO 'SWIM' IN THE DIGITAL TOOLS!(PROTOTYPING)
+### Web data scraping
 
 ## Reference
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
