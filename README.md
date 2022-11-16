@@ -1,6 +1,8 @@
-# How to avoid disappointing shows as GOT Season 8 and find your favored ones?--A Emotional Arc Approach by means of Natural Language Processing 
+# How to avoid disappointing shows as GOT Season 8 and find your favored ones?--A Emotional Arc Approach Using Sentiment Analysis of the Scripts
 
-We all have had such experience as we are watching new movies or shows with high expectations, only to find our expectations subverted after the hours which seem like ages. But by then, those hours in our life had already gone, leaving us with only the disapointment and regrets. 
+A Natural Language Processing Project that generates the emotional arc of GOT scripts by means of sentiment analysis.
+
+Tools: Python/R/Photoshop/Premier Pro/After Effect etc.
 
 ## A REALLY DISAPPOINTING WATCHING EXPERIENCE(EMPHAZING AND DEFINING)
 
