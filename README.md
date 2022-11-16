@@ -97,8 +97,8 @@ At the beginning, we can hardly see the joy or anger scenes, instead, the fear a
 
 ### Post-editing: Adobe After Effects and Premier Pro
 
-![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/harrypotter_emoational_arc.webp)
-![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/harrypotter_emoational_arc.webp)
+![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/ae.png)
+![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/pr.png)
 
 
 ## Reference
