@@ -55,6 +55,13 @@ Researchers have found the emotional arc of the given story plays a very importa
 
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/harrypotter_emoational_arc.webp)
 
+This approach has inspired me in terms of the methodology. The process of enjoying a movie is getting a unique and certain type of emotional experience, which decomposes into the changing of emotions such as happiness, sadness, anger, hope etc.
+
+So by analysing the changing of each primary emotion of the story, also known as the emotional arc, we can tell what the story would be like before actually watching it. This can be achieved by digital tools and programming languages.
+
+## BEGIN TO 'SWIM' IN THE DIGITAL TOOLS!
+# (PROTOTYPING)
+
 ## Reference
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
 
