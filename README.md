@@ -43,14 +43,17 @@ Unfortunately, we are faced with the fact that few of the current ways is satisf
 
 Is there a new way to tell whether the show or the movie is "interesting" or "breath-taking" or just "dull", before you even watch it? 
 
-It seems impossible at the first glance, as the saying goes: ‘You can’t have your cake and eat it too.’ 
+It seems impossible at the first glance, as the saying goes: ‘You can’t have your cake and eat it too.’ 
 
-But the digital technology has enabled us to use computational tools to analyze and generate the information we want from the screenplay script.
+But the digital technology has enabled us to use computational tools to analyse and generate the information we want from the screenplay script.
 
-Think out about the question from very begining: What is the most significant thing that contributes to the processing of the story?
-Engjoying a story, regardless of the format such as reading a book or watching a TV show, is getting various emotional experiences throughout the process, which is so called "The reader-pcerceived emotional content".
+Think out about the question from very beginning: What is the most significant thing that contributes to the processing of the story?
 
-The emotional arc of the given story plays a very important role in the popularity of that story.(  
+Enjoying a story, regardless of the format such as reading a book or watching a TV show, is getting various emotional experiences throughout the process, which is so called "The reader-perceived emotional content".
+
+Researchers have found the emotional arc of the given story plays a very important role in the popularity of that story(Reagan et al. EPJ Data Science). Taking Harry Potter as an example, the movie Harry Potter and the Deathly Hallows can be described using the level of happiness.  
+
+
 
 ## Reference
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
