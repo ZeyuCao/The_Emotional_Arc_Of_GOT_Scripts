@@ -72,6 +72,35 @@ Word cloud enables the audience to get to know the main characters and the most 
 ### Mask
 To make the word cloud more visually pleasant, I reshaped it with the selected picture. I chose the icon of house Stark as the mask. I then customized the colour by specifying the colour map, making the style of the word cloud resemble the house icons. Finally, I managed getting the output of the wordcloud. (See in the file ["wordcloud of the first episodes for all season"](https://github.com/ZeyuCao/The_Emotional_Arc_Of_GOT_Scripts/tree/main/wordcloud%20of%20the%20first%20episodes%20for%20all%20season) and ["wordcloud_S1"](https://github.com/ZeyuCao/The_Emotional_Arc_Of_GOT_Scripts/tree/main/wordcloud_S1). 
 
+### Data cleaning for emotional arc
+In the data preparation process in Python(IDE: JupyterNotebook), I converted the scripts of the story from 'txt' files to 'csv' files, separating the text by lines.
+
+### Emotional arc: sentiment analysis(NLP)
+I used R programming language (IDE: RStudio) to analyse the emotional arc of GOT. I did a Sentiment Analysis from Natural Language Processing to achieve the goal. 
+
+### Data set for emotional arc
+I created a new data set("dataset_4") step by step, adding a new column one by one(from "dataset_1" to "dataset_4").
+
+### Emotional arc graphs
+I generated the first graph by putting all the sentiments together to see how the density of the sentiments change as the story goes. The dictionary I used was "NRC Word-Emotion Association Lexicon". Then I drew the graph of the separated emotions.
+
+### The stop words
+Then I customized the stop words by adding the most frequent overlapping words among sentiments into the original stop words list.
+
+### New emotional arc graphs
+The new graph of the emotional arc(the change of density of all the sentiments as the story goes). The new graph of the emotional arc(the change of single sentiment as the story goes). I removed the "positive" and "negative" because they contribute more to the values of the story rather than the emotional experience.
+
+### Polished outcome and interpretation
+Finally, I polished the graph by using the functions of "RColorBrewer" and "ggthemes". [Here](https://github.com/ZeyuCao/The_Emotional_Arc_Of_GOT_Scripts/tree/main/S1E1_Sentiment_Analysis) is the separated emotional arc graph. And finally I could interpret the story:
+
+At the beginning, we can hardly see the joy or anger scenes, instead, the fear and the disgust soar. In the end, we may experience emotions combined with joy and sadness, with trust involved. This is rather a satisfying outcome, because the emotional arc we anticipate counters the plots in the show. For example, the opening scene consists with horror, fear and something that man dares not to be angry--which is the white walker. In the end, Ned agreed to go to King's Landing to be Robert's Hand, which corresponds with the emotional arc we guessed.  
+
+### Post-editing: Adobe After Effects and Premier Pro
+
+![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/harrypotter_emoational_arc.webp)
+![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/harrypotter_emoational_arc.webp)
+
+
 ## Reference
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
 
