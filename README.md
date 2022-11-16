@@ -100,10 +100,34 @@ At the beginning, we can hardly see the joy or anger scenes, instead, the fear a
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/ae.png)
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/pr.png)
 
+### How bad is the last season?
+S8E5 and S8E6 are the most ones in the last season. Firstly, by reviewing the graph of the emotional density. I found that the S8E5 lacked in an accumulative strong ending. Despite of the fact that the emotional density of S8E5 is quite high, the too strong middle has diluted the intensity of the ending. The similar situation as S8E6, where the emotional intensity seems to be gradually descending from the first 1/4 part of the story.
 
-## Reference
+One opposite example is the Show's highest rated episode, The Rains of Castamere, where the emotional density falls towards the lowest point in the middle and ascends to the strongest point in the end--The Red Wedding.
+
+When considering the change of separated emotions, the peak also seems be in the middle where the audience experience the fear, anger and a bit of sadness and surprise(Daenerys and Drogon destroying king's landing). After that, the audience only see the anticipation soar in the end, which means the audience get more and more bored. Similar as in S8E6, the most impressive scene is in the middle, with the joy and trust vanishing and fear climbing towards the peak. (Jon killing Daenerys) After that, only the anticipation climbs, which is far from making an impressive season ending--no sadness, no joy or fear.
+The positive example is also S3E9. During the red wedding, the emotions are complicated, the joy and trust going down meanwhile the anger, fear and sadness going the opposite direction. Only then, can the audience be impressed.
+
+### What about other stories?
+I decided to choose another story to see how this emotional arc approach can tell whether the movie is worth watching. The movie I chose was The Great Wall, directed by Zhang Yimou, a really famous director in China, The introduction of the movie at IMBd goes as below:
+
+In ancient China, a group of European mercenaries encounters a secret army that maintains and defends the Great Wall of China against a horde of monstrous creatures.
+I choose this movie because it is also of the same genre as GOT and coincidently it also tells a story on fighting against monstrous creatures.
+
+The first step is also generating the word cloud to see the most frequent words mentioned in the film. At first glance, the emotional density seems quite high, but the emotional peaks are somehow evenly distributed. As a result, the audience keep concentrated most of the time, therefore feel frustrated. As for the separated emotional arc graph, the problem remains. The anger, fear and trust have multiple peaks which scatter. This may make the triggers of the narrative from the outward rather from inward, which makes the motivations pushing the story less convincing and the narrative lacking in rhyme. As one comment says: trying to put together too many things. After watching the film, I confirmed my guess and found it corresponding with the movie. 
+
+## REFERENCES
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
 
 Script of Game of Thrones: ["Genius Lyrics"](https://genius.com/artists/Game-of-thrones)
 
 Reagan, A.J., Mitchell, L., Kiley, D. et al. The emotional arcs of stories are dominated by six basic shapes. EPJ Data Sci. 5, 31 (2016). https://doi.org/10.1140/epjds/s13688-016-0093-1
+
+## TAKE AWAYS AND FUTURE IMPROVEMENTS
+
+Expand my expertise in the programming language(R, Python)
+Understand the Sentiment Analysis(NLP) better
+Improve my mindset of design thinking
+Be more professional in video production soft wares(AE, PR Pro)
+Practice lighting setup in the studio and shooting with Sony camera
+The project can be developed into an interactive app to see the emotional arc of given shows in the future
