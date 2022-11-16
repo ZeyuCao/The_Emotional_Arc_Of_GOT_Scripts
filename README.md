@@ -53,7 +53,7 @@ Enjoying a story, regardless of the format such as reading a book or watching a 
 
 Researchers have found the emotional arc of the given story plays a very important role in the popularity of that story(Reagan et al. EPJ Data Science). Taking Harry Potter as an example, the movie Harry Potter and the Deathly Hallows can be described using the level of happiness.  
 
-
+![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/harrypotter_emoational_arc)
 
 ## Reference
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
