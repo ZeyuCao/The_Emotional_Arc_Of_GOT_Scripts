@@ -60,7 +60,7 @@ This approach has inspired me in terms of the methodology. The process of enjoyi
 So by analysing the changing of each primary emotion of the story, also known as the emotional arc, we can tell what the story would be like before actually watching it. This can be achieved by digital tools and programming languages.
 
 ## BEGIN TO 'SWIM' IN THE DIGITAL TOOLS!
-# (PROTOTYPING)
+### (PROTOTYPING)
 
 ## Reference
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
