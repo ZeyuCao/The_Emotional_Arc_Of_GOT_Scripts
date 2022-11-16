@@ -92,7 +92,7 @@ The new graph of the emotional arc(the change of density of all the sentiments a
 
 ### Polished outcome and interpretation
 Finally, I polished the graph by using the functions of "RColorBrewer" and "ggthemes". [Here](https://github.com/ZeyuCao/The_Emotional_Arc_Of_GOT_Scripts/tree/main/S1E1_Sentiment_Analysis) is the separated emotional arc graph.
-![This is an image]([https://github.com/ZeyuCao/The_Emotional_Arc_Of_GOT_Scripts/blob/main/S1E1_Sentiment_Analysis/S1E1.tiff](https://github.com/ZeyuCao/The_Emotional_Arc_Of_GOT_Scripts/blob/main/S1E1_Sentiment_Analysis/S1E1.tiff))
+![This is an image](https://github.com/ZeyuCao/The_Emotional_Arc_Of_GOT_Scripts/blob/main/S1E1_Sentiment_Analysis/S1E1.tiff)
 
 And finally I could interpret the story:
 
