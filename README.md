@@ -61,6 +61,16 @@ So by analysing the changing of each primary emotion of the story, also known as
 
 ## BEGIN TO 'SWIM' IN THE DIGITAL TOOLS!(PROTOTYPING)
 ### Web data scraping
+I use Python (IDE: Jupyter Notebook) to collect the web data. I download the scripts of GOT from the website below. Firstly, import the packages, set the working directory and scrap the data using beautiful soup and save the text as 'txt' file.
+
+### Data cleaning for word cloud
+Remove the inequivalent content, blanks and symbols. Then save the clean files for later use of word cloud. 
+
+### Word Cloud
+Word cloud enables the audience to get to know the main characters and the most frequent words of the episode. After importing the packages and setting the directory, I generated the first word cloud and removed the stop words that had been customized by myself. For some cases, the duplicate words shall be merged. 
+
+### Mask
+To make the word cloud more visually pleasant, I reshaped it with the selected picture. I chose the icon of house Stark as the mask. I then customized the colour by specifying the colour map, making the style of the word cloud resemble the house icons. Finally, I managed getting the output of the wordcloud. (See in the file "wordcloud of the first episodes for all seasons" and "wordcloud_S1". 
 
 ## Reference
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
