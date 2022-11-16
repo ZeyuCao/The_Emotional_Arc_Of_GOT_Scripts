@@ -1,45 +1,33 @@
-# How to avoid disappointing shows as GOT Season 8 and find your favored ones?--A Emotional Arc Approach Using Sentiment Analysis of the Scripts 
+# How to avoid disappointing shows as GOT Season 8 and find your favored ones?--A Emotional Arc Approach by means of Natural Language Processing 
 
 We all have had such experience as we are watching new movies or shows with high expectations, only to find our expectations subverted after the hours which seem like ages. But by then, those hours in our life had already gone, leaving us with only the disapointment and regrets. 
 
-## A really disappointing watching experience:
+## A REALLY DISAPPOINTING WATCHING EXPERIENCE(EMPHAZING AND DEFINING)
 
-For years, I have been a big fan of the HBO series, [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones). Once upon a time, I have even traveled to Ireland to ‘worship’ the show’s shooting scene.
+For years, I have been a big fan of the HBO series, [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones). Once upon a time, I have even travelled to Ireland to ‘worship’ the show’s shooting scene.
 
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/1.png)
 
 
 ![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/2.jpg)
 
-So it wouldn't be hard to imagine the joy and the expectation I had in 2019 when the last season of the show was premiered. I have my own self media with near 55k followers in [Zhihu](https://www.zhihu.com/people/cao-tu-dou-94), so that I wrote several reviewing articles on the show and gained over 1.3 million views. 
-
-![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/creator_center.png)
-
-![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/creator_center_S8E3.png)
-
-Some of the articles(Writen in Chinese) are listed below:
-
-[S8E1](https://www.zhihu.com/question/320028013/answer/651748036)
-
-[S8E2](https://www.zhihu.com/question/320747168/answer/659337126)
-
-[S8E3](https://www.zhihu.com/question/321888337/answer/666848619)
-
-[S8E6](https://www.zhihu.com/question/325173949/answer/688985513)
+So it wouldn't be hard to imagine the joy and the expectation I had in 2019 when the last season of the show was premiered. 
 
 However, the joy did not last long. it then turned out that the last season was the worst among all the seasons and received a great amount of complaints. Frankly speaking, I would rather haven’t watched the Game of Thrones season 8 so that it would have remained my favorite show ever till now!
 
 I am not the only disappointed fan. A [petition](https://www.change.org/p/hbo-remake-game-of-thrones-season-8-with-competent-writers) was started in the [Change.org](https://www.change.org/p/hbo-remake-game-of-thrones-season-8-with-competent-writers) Wesite, hoping to "Remake Game of Thrones Season 8 with competent writers." Up till now, more than 1.8 million people have signed on the Internet.
 
-Then a question bumped into my head: how can we avoid disappointing shows such as the last season of Game of Thrones and locate our favored ones? 
+![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/Petition.png)
 
-## We have ways to avoid disappointing shows, but...
+Then a question bumped into my head: how can we avoid disappointing shows such as the last season of Game of Thrones and locate our favoured ones? 
+
+## WE HAVE WAYS TO AVOID DISAPPOINTING SHOWS, BUT...(THE GAP)
 
 Normally, we use the ways below to "filter" our favored shows:
 
 ***By watching the trailers***
 
---The trailer is re-edited, so it can be considered a competely different story from the oringal one. (BTW, even the last episode of the last season of GOT seems not bad)
+--The trailer is re-edited, so it can be considered a completely different story from the original one. (BTW, even the last episode of the last season of GOT seems not bad)
 
 ***By reviewing the points and the recommendations on websites such as imdb***
 
@@ -51,19 +39,32 @@ Normally, we use the ways below to "filter" our favored shows:
 
 Unfortunately, we are faced with the fact that few of the current ways is satisfying. So new approach is supposed to be involved.
 
-## A Narrative Approach: the Emotional Arc
+## A NARRATIVE APPROACH: THE EMOTIONAL ARC(IDEATATION AND METHODOLOGY)
 
 Is there a new way to tell whether the show or the movie is "interesting" or "breath-taking" or just "dull", before you even watch it? 
 
-It seems impossible at the first glance, as the saying goes: ‘You can’t have your cake and eat it too.’ 
+It seems impossible at the first glance, as the saying goes: ‘You can’t have your cake and eat it too.’ 
 
-But the digital technology has enabled us to use computational tools to analyze and generate the information we want from the screenplay script.
+But the digital technology has enabled us to use computational tools to analyse and generate the information we want from the screenplay script.
 
-Think out about the question from very begining: What is the real thing that contributes to the processing of the story?
+Think out about the question from very beginning: What is the most significant thing that contributes to the processing of the story?
 
-Engjoying a story, regardless of the format such as reading a book or watching a TV show, is like
+Enjoying a story, regardless of the format such as reading a book or watching a TV show, is getting various emotional experiences throughout the process, which is so called "The reader-perceived emotional content".
+
+Researchers have found the emotional arc of the given story plays a very important role in the popularity of that story(Reagan et al. EPJ Data Science). Taking Harry Potter as an example, the movie Harry Potter and the Deathly Hallows can be described using the level of happiness.  
+
+![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/README_Photos/harrypotter_emoational_arc.webp)
+
+This approach has inspired me in terms of the methodology. The process of enjoying a movie is getting a unique and certain type of emotional experience, which decomposes into the changing of emotions such as happiness, sadness, anger, hope etc.
+
+So by analysing the changing of each primary emotion of the story, also known as the emotional arc, we can tell what the story would be like before actually watching it. This can be achieved by digital tools and programming languages.
+
+## BEGIN TO 'SWIM' IN THE DIGITAL TOOLS!(PROTOTYPING)
+### Web data scraping
 
 ## Reference
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
 
 Script of Game of Thrones: ["Genius Lyrics"](https://genius.com/artists/Game-of-thrones)
+
+Reagan, A.J., Mitchell, L., Kiley, D. et al. The emotional arcs of stories are dominated by six basic shapes. EPJ Data Sci. 5, 31 (2016). https://doi.org/10.1140/epjds/s13688-016-0093-1

@@ -1,0 +1,268 @@
+```{r}
+#change the directory to where the data is, in order to read the data
+setwd("E:\\下载\\project\\GOT\\script\\S1")
+```
+
+```{r}
+#check out whether the working directory has been successfully changed
+getwd()
+```
+
+```{r}
+#read the csv file
+script <- read.csv("dataS1E1.csv", stringsAsFactors=FALSE, check.names = F,fileEncoding = "UTF16LE")
+```
+
+```{r}
+#install the necessary packages
+install.packages("dplyr")
+install.packages("tidytext")
+install.packages("tidyr")
+install.packages("ggplot2")
+install.packages("textdata")
+install.packages("RColorBrewer")
+install.packages("ggthemes")
+```
+
+```{r}
+#library the packages
+library(dplyr)
+library(tidytext)
+library(tidyr)
+library(ggplot2)
+library(textdata)
+library(RColorBrewer)
+library(ggthemes)
+```
+
+```{r}
+#begin to create data set
+tidy_script <- script %>% 
+#cut the text in each rows into words and form up a new data frame
+unnest_tokens(word, text)
+#view the data set
+head(tidy_script)
+#save the first csv file
+write.csv(tidy_script,"E:\\下载\\project\\GOT\\script\\S1\\dataset_1.csv", row.names = FALSE,fileEncoding = "UTF16LE")
+```
+
+```{r}
+#add the sentiment column into the new data set
+dataset_2=tidy_script %>%#pipe operator
+  #add"sentiment"column into the data set
+  inner_join(get_sentiments("nrc")) %>%
+  #arrange the data set by line number in ascending order
+  arrange(line)
+head(tidy_script)
+write.csv(dataset_2,"E:\\下载\\project\\GOT\\script\\S1\\dataset_2.csv", row.names = FALSE,fileEncoding = "UTF16LE")
+```
+
+```{r}
+#count the frequency of each sentiment within a script line and reshape the data set
+dataset_3=tidy_script %>%
+  inner_join(get_sentiments("nrc")) %>%
+  #get the value of the factors in variable "sentiment" as "n"
+  count(line, sentiment) %>%
+  arrange(line) 
+dataset_3
+write.csv(dataset_3,"E:\\下载\\project\\GOT\\script\\S1\\dataset_3.csv", row.names = FALSE,fileEncoding = "UTF16LE")
+```
+
+```{r}
+#add new variable into the data set
+dataset_4=tidy_script %>%
+  inner_join(get_sentiments("nrc")) %>%
+  count(line, sentiment) %>%
+  #obtain the line integral division by 5 as new variable "index"
+  mutate(index = line %/% 5) %>%
+  arrange(index)
+dataset_4
+write.csv(dataset_4,"E:\\下载\\project\\GOT\\script\\S1\\dataset_4.csv", row.names = FALSE,fileEncoding = "UTF16LE")
+```
+
+```{r}
+#draw the graph
+tidy_script %>%
+  inner_join(get_sentiments("nrc")) %>%
+  count(line, sentiment) %>%
+  mutate(index = line %/% 5) %>%
+  ggplot(aes(x=index, y=n, color=sentiment)) %>%
+  + geom_col()
+ggsave("S1E1_all_without_stopwords.tiff", units="in", width=5, height=4, dpi=400, compression = 'lzw')
+```
+
+```{r}
+#generate graph to see the change of each sentiment through the story
+tidy_script %>%
+  inner_join(get_sentiments("nrc")) %>%
+  count(line, sentiment) %>%
+  mutate(index = line %/% 5) %>%
+  ggplot(aes(x=index, y=n, color=sentiment)) %>%
+  + geom_col() %>%
+  + facet_wrap(~sentiment, ncol=4)
+ggsave("S1E1_sentiment_analysis_without_stopwords.tiff", units="in", width=5, height=4, dpi=500, compression = 'lzw')
+```
+
+```{r}
+#check what words in the script contribute most to "positive" and see the frequency
+tidy_script %>%
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment == "positive") %>%
+  count(word) %>%
+  arrange(desc(n)) %>%
+  head(12)
+```
+
+```{r}
+#check what words in the script contribute most to "negative" and see the frequency
+tidy_script %>%
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment == "negative") %>%
+  count(word) %>%
+  arrange(desc(n)) %>%
+  head(10)
+```
+
+```{r}
+#check what words in the script contribute most to "disgust" and see the frequency
+tidy_script %>%
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment == "trust") %>%
+  count(word) %>%
+  arrange(desc(n)) %>%
+  head(10)
+```
+
+```{r}
+#The word frequency of each sentiment is not quite satisfying because some frequently appearing words belong to different categories at the same time
+#so I need to add into the stop words to see how the frequency of "positive" words changes
+tidy_script %>%
+  anti_join(stop_words) %>%
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment == "positive") %>%
+  count(word) %>%
+  arrange(desc(n)) %>%
+  head(10)
+```
+
+```{r}
+#add into the stop words to see how the frequency of "negative" words changes
+tidy_script %>%
+  anti_join(stop_words) %>%
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment == "negative") %>%
+  count(word) %>%
+  arrange(desc(n)) %>%
+  head(10)
+```
+```{r}
+#check what the stop words are
+stop_words
+```
+
+```{r}
+#customize the stop words list
+custom_stop_words <- bind_rows(stop_words,
+                               tibble(word = c("stark", "mother", "father","daughter", "brother", "rock", "ground", "lord", "shoulder", "king", "grace", "sea", "horse", "soldier", "servent","mother", "standing", "sea", "iron", "guard", "armor", "word", "words"),
+                                          lexicon = c("custom")))
+```
+
+```{r}
+#filter the positive words and see the current frequency 
+tidy_script %>%
+  anti_join(custom_stop_words) %>%
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment == "positive") %>%
+  count(word) %>%
+  arrange(desc(n)) %>%
+  head(10)
+```
+
+```{r}
+#filter the negative words and see the current frequency 
+tidy_script %>%
+  anti_join(custom_stop_words) %>%
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment == "negative") %>%
+  count(word) %>%
+  arrange(desc(n)) %>%
+  head(10)
+```
+
+```{r}
+#check other sentiments such as "fear"
+tidy_script %>%
+  anti_join(custom_stop_words) %>%
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment == "fear") %>%
+  count(word) %>%
+  arrange(desc(n)) %>%
+  head(10)
+```
+
+```{r}
+#generate the first final sentiment analysis graph of each sentiment for the story and save the picture
+tidy_script %>%#pipe operator 
+  #exclude the stop words from the data set
+  anti_join(custom_stop_words) %>%
+  #join the dictionary into the data set
+  inner_join(get_sentiments("nrc")) %>%
+  #exclude the positive and negative emotions
+  filter(sentiment != "negative" & sentiment != "positive") %>%
+  count(line, sentiment) %>%
+  mutate(index = line %/% 5) %>%
+  ggplot(aes(x=index, y=n, color=sentiment)) %>%
+  + geom_col(aes(fill=sentiment)) %>%
+  #draw a single graph for each sentiment
+  + facet_wrap(~sentiment, ncol=3)
+ggsave("S1E1_without_polishing.tiff", units="in", width=5, height=4, dpi=400, compression = 'lzw')
+```
+
+```{r}
+#polish up the graph and save the picture
+tidy_script %>%
+  anti_join(custom_stop_words) %>%
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment != "negative" & sentiment != "positive") %>%
+  count(line, sentiment) %>%
+  mutate(index = line %/% 5) %>%
+  ggplot(aes(x=index, y=n, color=sentiment)) %>%
+  + geom_col(aes(fill=sentiment)) %>%
+  + facet_wrap(~sentiment, ncol=3)%>%
+  #add a title
+  + ggtitle("GOT_S1E1_Sentiments")%>%
+  #change the background color into white
+  + theme(panel.background = element_rect(fill = "white", colour = NULL, size = 0))
+ggsave("S1E1.tiff", units="in", width=5, height=4, dpi=400, compression = 'lzw')
+```
+
+```{r}
+#generate the final sentiment analysis graph of all the sentiments for the story and save the picture
+tidy_script %>%
+  anti_join(custom_stop_words) %>%
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment != "negative" & sentiment != "positive") %>%
+  count(line, sentiment) %>%
+  mutate(index = line %/% 5) %>%
+  ggplot(aes(x=index, y=n, color=sentiment)) %>%
+  + geom_col()
+ggsave("S1E1_all_without_polishing.tiff", units="in", width=5, height=4, dpi=300, compression = 'lzw')
+```
+
+```{r}
+#polish up the image and save the picture
+tidy_script %>%
+  anti_join(custom_stop_words) %>%
+  inner_join(get_sentiments("nrc")) %>%
+  filter(sentiment != "negative" & sentiment != "positive") %>%
+  count(line, sentiment) %>%
+  mutate(index = line %/% 5) %>%
+  ggplot(aes(x=index, y=n, color=sentiment)) %>%
+  + ggtitle("GOT_S1E1_All_Sentiments")%>%
+  #change the color of the chart
+  + geom_col(aes(fill=sentiment),col="#C0C0C0",size=0.01)%>%
+  + scale_fill_brewer(palette="Spectral")%>%
+  + theme(panel.background = element_rect(fill = "white", colour = "white", size = 0))
+ggsave("S1E1_all.tiff", units="in", width=5, height=4, dpi=300, compression = 'lzw')
+```
+
