@@ -91,7 +91,10 @@ Then I customized the stop words by adding the most frequent overlapping words a
 The new graph of the emotional arc(the change of density of all the sentiments as the story goes). The new graph of the emotional arc(the change of single sentiment as the story goes). I removed the "positive" and "negative" because they contribute more to the values of the story rather than the emotional experience.
 
 ### Polished outcome and interpretation
-Finally, I polished the graph by using the functions of "RColorBrewer" and "ggthemes". [Here](https://github.com/ZeyuCao/The_Emotional_Arc_Of_GOT_Scripts/tree/main/S1E1_Sentiment_Analysis) is the separated emotional arc graph. And finally I could interpret the story:
+Finally, I polished the graph by using the functions of "RColorBrewer" and "ggthemes". [Here](https://github.com/ZeyuCao/The_Emotional_Arc_Of_GOT_Scripts/tree/main/S1E1_Sentiment_Analysis) is the separated emotional arc graph.
+![This is an image](https://github.com/ZeyuCao/Sentiment_Analysis_on_GOT/blob/main/S1E1_Sentiment_Analysis/S1E1.tiff)
+
+And finally I could interpret the story:
 
 At the beginning, we can hardly see the joy or anger scenes, instead, the fear and the disgust soar. In the end, we may experience emotions combined with joy and sadness, with trust involved. This is rather a satisfying outcome, because the emotional arc we anticipate counters the plots in the show. For example, the opening scene consists with horror, fear and something that man dares not to be angry--which is the white walker. In the end, Ned agreed to go to King's Landing to be Robert's Hand, which corresponds with the emotional arc we guessed.  
 
