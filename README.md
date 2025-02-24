@@ -122,6 +122,9 @@ I choose this movie because it is also of the same genre as GOT and coincidently
 The first step is also generating the word cloud to see the most frequent words mentioned in the film. At first glance, the emotional density seems quite high, but the emotional peaks are somehow evenly distributed. As a result, the audience keep concentrated most of the time, therefore feel frustrated. As for the separated emotional arc graph, the problem remains. The anger, fear and trust have multiple peaks which scatter. This may make the triggers of the narrative from the outward rather from inward, which makes the motivations pushing the story less convincing and the narrative lacking in rhyme. As one comment says: trying to put together too many things. After watching the film, I confirmed my guess and found it corresponding with the movie. 
 
 ## REFERENCES
+
+王树义. (2017, October 27). 如何用Python和R对《权力的游戏》故事情节做情绪分析？ 科学网博客. https://blog.sciencenet.cn/blog-377709-1073249.html
+
 Sentiment Dictionary: [Saif, Mohammad (2013). "NRC Word-Emotion Association Lexicon".](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm)
 
 Script of Game of Thrones: ["Genius Lyrics"](https://genius.com/artists/Game-of-thrones)
